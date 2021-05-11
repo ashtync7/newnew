@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,59 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+#formStuff {
+  padding: 20px;
+  /* border: 1px black ; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 7;
+  width: 60vw;
+  align-self: center;
+}
+
+#cheeseburgers {
+  width: 250px;
+  height: 70px;
+  /* margin-left: 1vw; */
+  background-color: white;
+  /* box-shadow: 0 2px 2px 0; */
+  /* border-radius: 5px; */
+  border: grey 1px solid;
+  text-transform: uppercase;
+  font-size: 1.3vh;
+}
+
+#formMessage {
+  width: 250px;
+  height: 70px;
+  /* margin-left: 1vw; */
+  background-color: white;
+  /* box-shadow: 0 2px 2px 0; */
+  /* border-radius: 5px; */
+  text-transform: uppercase;
+  font-size: 1.3vh;
+  /* margin: 0 0 0 -.2px; */
+  border: grey 1px solid;
+}
+
+#formButton {
+  height: 75px;
+  width: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  /* border: 1px solid #724169; */
+  border: none;
+  /* color: black; */
+  color: white;
+  /* background-color: lightblue; */
+  /* background-color: white; */
+  background-color: #724169;
+  /* box-shadow: 0 3px 3px 0; */
+  /* border-radius: 5px; */
+  text-transform: uppercase;
+  margin-right: 10px;
 }
