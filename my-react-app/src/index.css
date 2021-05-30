@@ -68,3 +68,17 @@ code {
   text-transform: uppercase;
   margin-right: 10px;
 }
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url("./public/malibu19.png") no-repeat center center fixed;
+  background-size: auto;
+}
+
+#malibu {
+  height: auto;
+  width: 70vw;
+  margin-top: -20px;
+}
