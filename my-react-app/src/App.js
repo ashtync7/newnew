@@ -3,17 +3,21 @@ import React from 'react';
 import Home from './Home';
 import Projects from './Projects';
 import Pros from './Pros';
+import Contact from './Contact';
 
 function App() {
   return (
+    <div>
 
-    <div id="formStuff">
-      <form name="contact">
-        <input type="text" id="cheeseburgers" name="name" className="input1" placeholder="Name" name="Name"></input>
-        <input type="text" id="cheeseburgers" className="input2" placeholder="E-mail Address" name="Email Address"></input>
-        <input type="text" id="formMessage" name="place" rows="3" placeholder="Message" name="Message"></input>
-        <input name="name" type="submit" value="Send" class="sendButton" id="formButton"></input>
-      </form>
+      <nav className="navBar">
+        <ul>
+          <Link to='/'><li>home</li></Link>
+          <Link to={'/Contact'}><li>contact</li></Link>
+          <Link to={`/Projects`}><li>projects</li></Link>
+          <Link to={`/Pros`}><li>proficiencies</li></Link>
+        </ul>
+      </nav>
+
     </div>
   );
 }
