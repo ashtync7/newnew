@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 import Home from './Home';
+import Projects from './Projects';
+import Pros from './Pros';
 
 function App() {
   return (
