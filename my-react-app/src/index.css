@@ -193,3 +193,36 @@ transform: translate3d(0, 0, 0);
   width: 100%;
 }
 }
+
+.navBar{
+  z-index: 5;
+  background: rgba(255, 255, 255, 0);
+}
+.navBar ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  margin-right: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  color: #724169;
+}
+.navBar li{
+  font-size: 2.5vh;
+}
+.navBar a {
+  text-decoration: none;
+  color: #724169;
+}
+.navBar a:hover{
+  color: #D2A0DD;
+}
+@media (max-width: 1148px){
+  .navBar{
+    visibility: hidden;
+  }
+}
+@media (min-width: 1149px) {
+  .menu-wrap{
+    visibility: hidden;
+  }
