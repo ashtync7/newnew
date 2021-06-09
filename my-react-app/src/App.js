@@ -18,6 +18,13 @@ function App() {
         </ul>
       </nav>
 
+      <Switch>
+        <Route exact path='/' render={(props) => <Home {...props} />} />
+        <Route exact path='/Contact' render={() => <Contact />} />
+        <Route exact path='/Projects' render={() => <Projects />} />
+        <Route exact path='/Pros' render={() => <Pros />} />
+      </Switch>
+
     </div>
   );
 }
