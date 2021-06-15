@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import { Switch, Route, NavLink, useHistory, Link } from "react-router-dom";
 import Home from './Home';
 import Projects from './Projects';
 import Pros from './Pros';
@@ -18,12 +19,12 @@ function App() {
         </ul>
       </nav>
 
-      <Switch>
+      {/* <Switch>
         <Route exact path='/' render={(props) => <Home {...props} />} />
         <Route exact path='/Contact' render={() => <Contact />} />
         <Route exact path='/Projects' render={() => <Projects />} />
         <Route exact path='/Pros' render={() => <Pros />} />
-      </Switch>
+      </Switch> */}
 
     </div>
   );
