@@ -227,3 +227,42 @@ transform: translate3d(0, 0, 0);
     visibility: hidden;
   }
 }
+
+#socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: navy;
+  color: white;
+  margin-right: 2.5px;
+}
+
+.fa-instagram {
+  background: fuchsia;
+  color: white;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.fa-github {
+background: rgb(48, 199, 28);
+color: white;
+margin-left: 2.5px;
+}
