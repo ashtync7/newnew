@@ -280,3 +280,24 @@ margin-left: 2.5px;
   align-items: center;
   margin-top: 100px;
 }
+
+.name {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5.5vw;
+  color: white;
+  font-family: 'Prata', serif;
+}
+
+#coffeemugs {
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  height: 500px;
+  width: 470px;
+}
