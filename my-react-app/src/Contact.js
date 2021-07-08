@@ -4,6 +4,9 @@ function Contact(props) {
 
     return (
         <div>
+            <header>
+                <img src="my-react-app/public/MALIBUheader.png" className="maliblu" />
+            </header>
             <div id="formStuff">
                 <form name="contact">
                     <input type="text" id="cheeseburgers" name="name" className="input1" placeholder="Name" name="Name"></input>
